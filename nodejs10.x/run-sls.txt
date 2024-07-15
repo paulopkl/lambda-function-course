@@ -1,0 +1,9 @@
+sls invoke local --docker -f hello-world
+
+sls invoke -f hello-world --logger null
+
+sls logs -f hello-world
+
+sls remove
+
+sls
